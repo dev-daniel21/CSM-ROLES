@@ -14,3 +14,10 @@ At this moment this application uses following microservices:
 7. CSM-CloudServer
 
 # It is still in development
+
+Use to build docker image:
+    $ docker build -f ./Dockerfile -t csm-roles .
+
+Use to run container from image:
+
+    $ docker run --name csm-roles -p 8315:8315 -d csm-roles
